@@ -1,0 +1,4686 @@
+{
+  "name": "Pizzaria Demo",
+  "intents": [
+    {
+      "intent": "qtd_2",
+      "examples": [
+        {
+          "text": "duas"
+        },
+        {
+          "text": "quero duas"
+        },
+        {
+          "text": "quero duas pizzas"
+        },
+        {
+          "text": "manda duas pizzas"
+        },
+        {
+          "text": "Vê duas pizzas"
+        },
+        {
+          "text": "quero 2"
+        },
+        {
+          "text": "manda 2 por favor"
+        },
+        {
+          "text": "entrega duas pizzas"
+        },
+        {
+          "text": "somente 2"
+        },
+        {
+          "text": "mente duas pizzas"
+        },
+        {
+          "text": "2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "forma_pgto",
+      "examples": [
+        {
+          "text": "no dinheiro"
+        },
+        {
+          "text": "vou pagar no crédito"
+        },
+        {
+          "text": "vou pagar no débito"
+        },
+        {
+          "text": "credito"
+        },
+        {
+          "text": "debito"
+        },
+        {
+          "text": "cascalho"
+        },
+        {
+          "text": "dinheiro"
+        },
+        {
+          "text": "vou pagar em dinheiro"
+        },
+        {
+          "text": "bufunfa"
+        },
+        {
+          "text": "vou pagar no cash"
+        },
+        {
+          "text": "em dindin"
+        },
+        {
+          "text": "money"
+        },
+        {
+          "text": "vou pagar no cartão"
+        }
+      ]
+    },
+    {
+      "intent": "bebidas_pergunta",
+      "examples": [
+        {
+          "text": "tem dolly guaraná"
+        },
+        {
+          "text": "tem coca"
+        },
+        {
+          "text": "Quais refrigerantes que vocês tem"
+        },
+        {
+          "text": "tem fanta laranja"
+        },
+        {
+          "text": "tem fanta"
+        },
+        {
+          "text": "tem cerveja"
+        },
+        {
+          "text": "tem fanta uva"
+        },
+        {
+          "text": "tem dolly"
+        },
+        {
+          "text": "quais bebidas vocês entregam"
+        },
+        {
+          "text": "me diz quais refrigerantes tem aí"
+        },
+        {
+          "text": "tem coca-cola"
+        },
+        {
+          "text": "tem guaraná"
+        }
+      ]
+    },
+    {
+      "intent": "alterar",
+      "examples": [
+        {
+          "text": "alterar o endereço"
+        },
+        {
+          "text": "vamos mudar o endereço"
+        },
+        {
+          "text": "digitei endereço errado"
+        },
+        {
+          "text": "endereço precisa ser alterado"
+        },
+        {
+          "text": "alterar"
+        },
+        {
+          "text": "mudar"
+        },
+        {
+          "text": "editar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pizza_inteira",
+      "examples": [
+        {
+          "text": "inteira"
+        },
+        {
+          "text": "vou querer inteira"
+        },
+        {
+          "text": "eu quero pizza inteira"
+        },
+        {
+          "text": "entrega pizza inteira"
+        },
+        {
+          "text": "quero inteira"
+        },
+        {
+          "text": "manda inteira"
+        },
+        {
+          "text": "vou querer pizza inteira"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "dinheiro",
+      "examples": [
+        {
+          "text": "bufunfa"
+        },
+        {
+          "text": "vou pagar no dinheiro"
+        },
+        {
+          "text": "dinheiro"
+        },
+        {
+          "text": "vou pagar no cash"
+        },
+        {
+          "text": "cascalho"
+        },
+        {
+          "text": "money"
+        },
+        {
+          "text": "dindin"
+        },
+        {
+          "text": "nas verdinhas"
+        },
+        {
+          "text": "vou pagar em dindin"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "duas_inteiras",
+      "examples": [
+        {
+          "text": "quero as duas inteiras"
+        },
+        {
+          "text": "2 inteiras"
+        },
+        {
+          "text": "manda duas inteiras"
+        },
+        {
+          "text": "as 2 são inteiras"
+        },
+        {
+          "text": "as duas inteiras"
+        },
+        {
+          "text": "duas inteiras"
+        },
+        {
+          "text": "pode ser as duas inteiras"
+        },
+        {
+          "text": "pode ser 2 inteiras"
+        },
+        {
+          "text": "entrega 2 inteiras"
+        },
+        {
+          "text": "manda 2 inteiras"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "saudacao",
+      "examples": [
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "eae"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "Olá"
+        },
+        {
+          "text": "oi, tudo bem"
+        },
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "e aí"
+        }
+      ]
+    },
+    {
+      "intent": "debito",
+      "examples": [
+        {
+          "text": "pgto. no debito"
+        },
+        {
+          "text": "vou de débito"
+        },
+        {
+          "text": "vou pagar no débito"
+        },
+        {
+          "text": "quero pagar no debito"
+        },
+        {
+          "text": "debito"
+        },
+        {
+          "text": "débito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "int_meio_a_meio",
+      "examples": [
+        {
+          "text": "uma inteira e outra meio a meio"
+        },
+        {
+          "text": "quero uma inteira e outra meio a meio"
+        },
+        {
+          "text": "uma inteira e uma meio a meio"
+        },
+        {
+          "text": "1 meio a meio e a outra inteira"
+        },
+        {
+          "text": "inteira e meio a meio"
+        },
+        {
+          "text": "1 inteira e 1 meio a meio"
+        },
+        {
+          "text": "uma meio a meio e a outra inteira"
+        },
+        {
+          "text": "meio a meio e inteira"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pedir_pizza",
+      "examples": [
+        {
+          "text": "iniciar pedido"
+        },
+        {
+          "text": "que tal uma pizza"
+        },
+        {
+          "text": "posso fazer o meu pedido"
+        },
+        {
+          "text": "posso pedir agora"
+        },
+        {
+          "text": "gostaria de fazer um pedido"
+        },
+        {
+          "text": "eu quero uma pizza"
+        },
+        {
+          "text": "estou com fome"
+        },
+        {
+          "text": "vou fazer meu pedido"
+        }
+      ]
+    },
+    {
+      "intent": "telefone",
+      "examples": [
+        {
+          "text": "telefone"
+        },
+        {
+          "text": "meu cel."
+        },
+        {
+          "text": "meu celular é"
+        },
+        {
+          "text": "meu telefone é"
+        },
+        {
+          "text": "cel"
+        },
+        {
+          "text": "tel"
+        },
+        {
+          "text": "cel."
+        },
+        {
+          "text": "tel."
+        },
+        {
+          "text": "celular"
+        },
+        {
+          "text": "meu tel."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "meio_a_meio",
+      "examples": [
+        {
+          "text": "meio à meio"
+        },
+        {
+          "text": "meio a meio"
+        },
+        {
+          "text": "metade metade"
+        },
+        {
+          "text": "metade"
+        },
+        {
+          "text": "quero meio a meio"
+        },
+        {
+          "text": "dois recheios"
+        },
+        {
+          "text": "duas coberturas"
+        },
+        {
+          "text": "dois sabores"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "endereco",
+      "examples": [
+        {
+          "text": "travessa"
+        },
+        {
+          "text": "meu endereço é"
+        },
+        {
+          "text": "endereço"
+        },
+        {
+          "text": "rua"
+        },
+        {
+          "text": "avenida"
+        },
+        {
+          "text": "bairro"
+        },
+        {
+          "text": "cidade"
+        },
+        {
+          "text": "vila"
+        },
+        {
+          "text": "r."
+        },
+        {
+          "text": "av."
+        },
+        {
+          "text": "eu moro na rua"
+        },
+        {
+          "text": "entrega na rua"
+        },
+        {
+          "text": "é para entregar na avenida"
+        },
+        {
+          "text": "local de entrega é na rua"
+        },
+        {
+          "text": "casa"
+        },
+        {
+          "text": "apartamento"
+        },
+        {
+          "text": "Próx ao supermercado dias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cartao_credito",
+      "examples": [
+        {
+          "text": "credito"
+        },
+        {
+          "text": "cartão de crédito"
+        },
+        {
+          "text": "visa"
+        },
+        {
+          "text": "mastercard"
+        },
+        {
+          "text": "elo"
+        },
+        {
+          "text": "american express"
+        },
+        {
+          "text": "crédito"
+        },
+        {
+          "text": "vou pagar no crédito"
+        },
+        {
+          "text": "aceita cartão de crédito"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "bebidas",
+      "examples": [
+        {
+          "text": "acompanha com uma coca"
+        },
+        {
+          "text": "tem fanta"
+        },
+        {
+          "text": "quero um guaraná"
+        },
+        {
+          "text": "manda uma coca"
+        },
+        {
+          "text": "qual refri que vem"
+        },
+        {
+          "text": "qual refrigerante que tem"
+        },
+        {
+          "text": "acompanha refrigerante"
+        },
+        {
+          "text": "acompanha um refri"
+        },
+        {
+          "text": "antártica"
+        },
+        {
+          "text": "coca"
+        },
+        {
+          "text": "manda um refrigerante"
+        },
+        {
+          "text": "Quero refrigerante"
+        },
+        {
+          "text": "quero um refri"
+        },
+        {
+          "text": "tem refrigerante"
+        },
+        {
+          "text": "guaraná"
+        },
+        {
+          "text": "fanta"
+        }
+      ]
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        {
+          "text": "eu que agradeço"
+        },
+        {
+          "text": "partiu"
+        },
+        {
+          "text": "fui"
+        },
+        {
+          "text": "até a próxima"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigada"
+        },
+        {
+          "text": "tchau"
+        },
+        {
+          "text": "inté"
+        },
+        {
+          "text": "valeu"
+        },
+        {
+          "text": "muito obrigado"
+        }
+      ]
+    },
+    {
+      "intent": "afirmacao",
+      "examples": [
+        {
+          "text": "bora"
+        },
+        {
+          "text": "sim"
+        },
+        {
+          "text": "claro"
+        },
+        {
+          "text": "com certeza"
+        },
+        {
+          "text": "obvio"
+        },
+        {
+          "text": "evidente que sim"
+        },
+        {
+          "text": "pode ser"
+        },
+        {
+          "text": "evidentemente"
+        },
+        {
+          "text": "ss"
+        },
+        {
+          "text": "s"
+        },
+        {
+          "text": "já é"
+        },
+        {
+          "text": "quero"
+        },
+        {
+          "text": "quero sim"
+        },
+        {
+          "text": "agora"
+        },
+        {
+          "text": "só se for agora"
+        },
+        {
+          "text": "conheço"
+        },
+        {
+          "text": "correto"
+        },
+        {
+          "text": "está correto"
+        },
+        {
+          "text": "tudo certo"
+        },
+        {
+          "text": "corretíssimo"
+        },
+        {
+          "text": "perfeito"
+        }
+      ]
+    },
+    {
+      "intent": "qtd_1",
+      "examples": [
+        {
+          "text": "1"
+        },
+        {
+          "text": "só uma"
+        },
+        {
+          "text": "vê uma pizza só"
+        },
+        {
+          "text": "manda 1"
+        },
+        {
+          "text": "manda uma apenas"
+        },
+        {
+          "text": "quero só uma"
+        },
+        {
+          "text": "uma"
+        },
+        {
+          "text": "apenas uma"
+        },
+        {
+          "text": "apenas 1"
+        },
+        {
+          "text": "somente uma"
+        },
+        {
+          "text": "quero só 1"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "negacao",
+      "examples": [
+        {
+          "text": "Não conheço"
+        },
+        {
+          "text": "gostaria de conhecer"
+        },
+        {
+          "text": "quero conhecer"
+        },
+        {
+          "text": "quero ver"
+        },
+        {
+          "text": "nunca vi"
+        },
+        {
+          "text": "nunca nem vi"
+        },
+        {
+          "text": "quero receber"
+        },
+        {
+          "text": "gostaria de ver"
+        },
+        {
+          "text": "não"
+        },
+        {
+          "text": "negativo"
+        }
+      ]
+    },
+    {
+      "intent": "cardapio",
+      "examples": [
+        {
+          "text": "estou em dúvida"
+        },
+        {
+          "text": "apresente o cardápio"
+        },
+        {
+          "text": "Onde eu encontro o cardápio"
+        },
+        {
+          "text": "onde eu posso ver o menu"
+        },
+        {
+          "text": "pode me enviar o menu"
+        },
+        {
+          "text": "pode me enviar o cardápio"
+        },
+        {
+          "text": "quais as opções"
+        },
+        {
+          "text": "quais os sabores"
+        },
+        {
+          "text": "quais são os sabores"
+        },
+        {
+          "text": "qual o menu"
+        },
+        {
+          "text": "qual o cardápio"
+        },
+        {
+          "text": "tem o cardapio"
+        },
+        {
+          "text": "cardapio"
+        },
+        {
+          "text": "cardápio"
+        },
+        {
+          "text": "menu"
+        },
+        {
+          "text": "quais são os recheios"
+        },
+        {
+          "text": "quais os sabores disponíveis"
+        },
+        {
+          "text": "duvida"
+        },
+        {
+          "text": "poderia me mostrar o menu"
+        },
+        {
+          "text": "qual o cardapio"
+        },
+        {
+          "text": "alguma sugestão"
+        },
+        {
+          "text": "ainda não me decidi"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "acompanhamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Coca-Cola 2l",
+          "synonyms": [
+            "cola",
+            "coca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Guaraná Antártica 2l",
+          "synonyms": [
+            "guarana",
+            "guaraná"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Fanta Laranja 2l",
+          "synonyms": [
+            "fanta laranja",
+            "fanta",
+            "laranja"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "qtd",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "uma",
+          "synonyms": [
+            "1"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "duas",
+          "synonyms": [
+            "2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "três",
+          "synonyms": [
+            "3"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "int_meio_a_meio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inteira e uma meio a meio",
+          "synonyms": [
+            "1 inteira e a outra meio a meio",
+            "1 inteira e 1 meio a meio",
+            "uma inteira e uma meio a meio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tipo_de_massa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Massa Média",
+          "synonyms": [
+            "média"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Massa Grossa",
+          "synonyms": [
+            "grossa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Massa Fina",
+          "synonyms": [
+            "fina"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "debito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Débito",
+          "synonyms": [
+            "debito",
+            "débito",
+            "no débito",
+            "no debito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "inteira",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "inteira",
+          "synonyms": [
+            "pizza inteira"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "inteiras",
+          "synonyms": [
+            "pizzas inteiras"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "endereco",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Rua",
+          "synonyms": [
+            "Avenida",
+            "Travessa",
+            "Vila"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "saudacao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Boa noite",
+          "synonyms": [
+            "bom noite",
+            "noite"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Olá",
+          "synonyms": [
+            "fmz",
+            "firmeza",
+            "blz",
+            "beleza",
+            "e aí",
+            "eae",
+            "oii",
+            "oi"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Boa tarde",
+          "synonyms": [
+            "tarde"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Bom dia",
+          "synonyms": [
+            "dia"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "dinheiro",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dinheiro",
+          "synonyms": [
+            "tutu",
+            "cash",
+            "grana",
+            "money",
+            "cascalho",
+            "dindin"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "meio_a_meio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "meio a meio",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "borda",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sem recheio",
+          "synonyms": [
+            "não quero receio",
+            "nenhum recheio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cheddar",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Catupiry",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "CEP",
+          "patterns": [
+            "[0-9]{5}-[0-9]{3}"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "sem-troco",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Não",
+          "synonyms": [
+            "eu tenho o valor exato",
+            "sem troco",
+            "vou pagar no ticket",
+            "vou pagar no débito",
+            "vou pagar no crédito",
+            "vou pagar no cartão",
+            "não preciso",
+            "não quero troco",
+            "não precisa"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "referencia",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "perto da",
+          "synonyms": [
+            "perto do",
+            "próximo a",
+            "próximo ao",
+            "na rua da",
+            "na rua do",
+            "na avenida da",
+            "na avenida do",
+            "próx.",
+            "na av.",
+            "na r."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "tel",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Cel.",
+          "patterns": [
+            "[0-9]{2} [0-9]{5}-[0-9]{4}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "Tel.",
+          "patterns": [
+            "[0-9]{2} [0-9]{4}-[0-9]{4}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sabor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mussarela",
+          "synonyms": [
+            "mutsarela",
+            "muçarela",
+            "queijo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "À Moda da Casa",
+          "synonyms": [
+            "a da casa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "calabresa",
+          "synonyms": [
+            "linguiça"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Meia Mussarela e Meia Calabresa",
+          "synonyms": [
+            "metade mussarela e metade calabresa",
+            "meia calabresa e mussarela",
+            "meia mussarela e meia calabresa"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vegetariana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Quatro Queijos",
+          "synonyms": [
+            "4 queijos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Romana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Provolone",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Portuguesa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Palmito",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Napolitana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mexicana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Margherita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Grega",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Frango",
+          "synonyms": [
+            "galinha"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Escarola",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cubana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Canadense",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Camponesa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Caipira",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Bauru",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Baiana",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Atum",
+          "synonyms": [
+            "peixe"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Aliche",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Alho e Óleo",
+          "synonyms": []
+        }
+      ]
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "credito",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cartão de Crédito",
+          "synonyms": [
+            "crédito",
+            "credito",
+            "no crédito",
+            "no credito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "pt-br",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos quase lá. 😀 Qual a forma de pagamento? Crédito, débito ou dinheiro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549572038118",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#dinheiro || #cartao_credito || #debito",
+      "dialog_node": "node_4_1549572051134",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Você precisa escolher os sabores que estão no cardápio. Ex: portuguesa."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_245_1549672075040",
+      "event_name": "nomatch",
+      "dialog_node": "handler_261_1549672761811",
+      "previous_sibling": "handler_246_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_245_1549672075040",
+      "context": {
+        "sabor_3": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_246_1549672075040",
+      "previous_sibling": "handler_247_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "E agora o sabor da outra metade da 2° pizza por favor?"
+      },
+      "parent": "slot_245_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_247_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_38_1549548231925",
+      "metadata": {},
+      "variable": "$borda",
+      "dialog_node": "slot_39_1549548312449",
+      "previous_sibling": "node_88_1549641908083"
+    },
+    {
+      "type": "standard",
+      "title": "Negação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1549548231925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_88_1549641908083",
+      "previous_sibling": "node_55_1549563546280"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_38_1549548231925",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_55_1549563546280"
+    },
+    {
+      "type": "standard",
+      "title": "Negação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1549638536853",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_87_1549641620442",
+      "previous_sibling": "node_82_1549639483062"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_70_1549638536853",
+      "metadata": {},
+      "variable": "$borda",
+      "dialog_node": "slot_71_1549638569129",
+      "previous_sibling": "node_87_1549641620442"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_70_1549638536853",
+      "metadata": {},
+      "variable": "$borda_2",
+      "dialog_node": "slot_74_1549638604604",
+      "previous_sibling": "slot_71_1549638569129"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_70_1549638536853",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_82_1549639483062"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1549211230052",
+      "variable": "$qtd",
+      "dialog_node": "slot_14_1549587408556"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual sabor da 1ª metade?"
+      },
+      "parent": "slot_180_1549663872659",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_182_1549663872659",
+      "previous_sibling": "handler_181_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_180_1549663872659",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_181_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1549217461000",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1549217461000",
+      "previous_sibling": "handler_2_1549217461000"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1549217461000",
+      "event_name": "input",
+      "dialog_node": "handler_2_1549217461000"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o sabor da 1ª pizza?"
+      },
+      "parent": "slot_7_1549539865124",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1549539865124",
+      "previous_sibling": "handler_8_1549539865124"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1549539865124",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_8_1549539865124"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_233_1549672075040",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_234_1549672075040",
+      "previous_sibling": "handler_235_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Você precisa escolher os sabores que estão no cardápio. Ex: mussarela."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_233_1549672075040",
+      "event_name": "nomatch",
+      "dialog_node": "handler_255_1549672134076",
+      "previous_sibling": "handler_234_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual sabor da pizza inteira?"
+      },
+      "parent": "slot_233_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_235_1549672075040"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549210130610",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1549193168510"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_2_1549538867453",
+      "previous_sibling": "node_1_1549538737333"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549210130610",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1549193353191"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_1_1549538737333"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Coca, Guaraná ou Fanta?"
+      },
+      "parent": "slot_31_1549546335482",
+      "event_name": "focus",
+      "dialog_node": "handler_33_1549546335482",
+      "previous_sibling": "handler_32_1549546335482"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_31_1549546335482",
+      "context": {
+        "acompanhamento": "@acompanhamento"
+      },
+      "metadata": {},
+      "conditions": "@acompanhamento",
+      "event_name": "input",
+      "dialog_node": "handler_32_1549546335482"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_24_1549594842349",
+      "event_name": "focus",
+      "dialog_node": "handler_26_1549594842349",
+      "previous_sibling": "handler_25_1549594842349"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_24_1549594842349",
+      "context": {
+        "meio_a_meio": "@meio_a_meio"
+      },
+      "conditions": "@meio_a_meio",
+      "event_name": "input",
+      "dialog_node": "handler_25_1549594842349"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza meio a meio nos sabores de $sabor e $sabor2\n$tipo_de_massa\nRecheio na borda: $borda\n$acompanhamento\nEntregue no CEP: $cep\nTel/Cel: $tel\nSeu pedido será entregue o mais rápido possível!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00, estaremos levando a maquininha de cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1549576251664",
+      "metadata": {},
+      "conditions": "$qtd:uma && $meio_a_meio:(meio a meio)",
+      "dialog_node": "node_69_1549634142094",
+      "previous_sibling": "node_68_1549633964247"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza nos sabores de $sabor e $sabor_2\n$tipo_de_massa na pizza de $sabor - recheio na borda $borda\n$tipo_de_massa_2 na pizza de $sabor_2 - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00, estaremos levando a maquininha de cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1549576251664",
+      "metadata": {},
+      "conditions": "$qtd:duas && $inteira:inteiras",
+      "dialog_node": "node_132_1549662364345",
+      "previous_sibling": "node_69_1549634142094"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza meio a meio nos sabores de $sabor e $sabor_2 e $sabor_3 e $sabor_4\n$tipo_de_massa na 1ª pizza - recheio na borda $borda\n$tipo_de_massa_2 na 2ª pizza - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00, estaremos levando a maquininha de cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1549576251664",
+      "metadata": {},
+      "conditions": "$qtd:duas && $meio_a_meio:(meio a meio)",
+      "dialog_node": "node_213_1549665314797",
+      "previous_sibling": "node_132_1549662364345"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo $nome! Seu pedido é de $qtd pizza 1 inteira e a outra meio a meio nos sabores de $sabor e $sabor_2 e $sabor_3\n$tipo_de_massa na 1ª pizza - recheio na borda $borda\n$tipo_de_massa_2 na 2ª pizza - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00, estaremos levando a maquininha de cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1549576251664",
+      "metadata": {},
+      "conditions": "$qtd:duas && $int_meio_a_meio:(inteira e uma meio a meio)",
+      "dialog_node": "node_272_1549673902588",
+      "previous_sibling": "node_213_1549665314797"
+    },
+    {
+      "type": "slot",
+      "parent": "node_14_1549576251664",
+      "variable": "$debito",
+      "dialog_node": "slot_11_1549599468749",
+      "previous_sibling": "slot_8_1549599449749"
+    },
+    {
+      "type": "slot",
+      "parent": "node_14_1549576251664",
+      "variable": "$credito",
+      "dialog_node": "slot_8_1549599449749",
+      "previous_sibling": "node_272_1549673902588"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza no sabor de $sabor\n$tipo_de_massa\nRecheio na borda: $borda\n$acompanhamento\nEntregue no CEP: $cep\nTel/Cel: $tel\nSeu pedido será entregue o mais rápido possível!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00, estaremos levando a maquininha de cartão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Muito obrigado por escolher a nossa pizzaria. 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_14_1549576251664",
+      "metadata": {},
+      "conditions": "$qtd:uma &&  $inteira:inteira",
+      "dialog_node": "node_68_1549633964247"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_168_1549663872659",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_171_1549663872659",
+      "previous_sibling": "handler_170_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_168_1549663872659",
+      "context": {
+        "borda": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_170_1549663872659",
+      "previous_sibling": "handler_169_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 1ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_168_1549663872659",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_169_1549663872659"
+    },
+    {
+      "type": "standard",
+      "title": "Negação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_165_1549663872659",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_167_1549663872659",
+      "previous_sibling": "node_166_1549663872659"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_165_1549663872659",
+      "metadata": {},
+      "variable": "$borda_2",
+      "dialog_node": "slot_172_1549663872659",
+      "previous_sibling": "slot_168_1549663872659"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_165_1549663872659",
+      "metadata": {},
+      "variable": "$borda",
+      "dialog_node": "slot_168_1549663872659",
+      "previous_sibling": "node_167_1549663872659"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_165_1549663872659",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_166_1549663872659"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estamos quase lá. 😀 Qual a forma de pagamento? Crédito, débito ou dinheiro?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1549572051134",
+      "disabled": true,
+      "metadata": {},
+      "dialog_node": "node_65_1549632917122",
+      "previous_sibling": "node_14_1549576251664"
+    },
+    {
+      "type": "frame",
+      "title": "Finalizando Débito ou Crédito",
+      "output": {},
+      "parent": "node_4_1549572051134",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@credito || @debito",
+      "dialog_node": "node_14_1549576251664",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_20_1549588544619",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1549572051134",
+      "dialog_node": "slot_1_1549598776005",
+      "previous_sibling": "node_65_1549632917122"
+    },
+    {
+      "type": "frame",
+      "title": "Finalizando pagamento dinheiro",
+      "output": {},
+      "parent": "node_4_1549572051134",
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@dinheiro",
+      "dialog_node": "node_20_1549588544619",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Certo $nome! Seu pedido é de $qtd pizza 1 inteira e a outra meio a meio nos sabores de $sabor e $sabor_2 e $sabor_3\n$tipo_de_massa na 1ª pizza - recheio na borda $borda\n$tipo_de_massa_2 na 2ª pizza - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00 você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "metadata": {},
+      "conditions": "$qtd:duas && $int_meio_a_meio:(inteira e uma meio a meio)",
+      "dialog_node": "node_264_1549673322835",
+      "previous_sibling": "node_214_1549666082678"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza nos sabores de $sabor e $sabor_2\n$tipo_de_massa na pizza de $sabor - recheio na borda $borda\n$tipo_de_massa_2 na pizza de $sabor_2 - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00 você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "metadata": {},
+      "conditions": "$qtd:duas && $inteira:inteiras",
+      "dialog_node": "node_83_1549641135569",
+      "previous_sibling": "node_67_1549633367149"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito $nome!\nSeu pedido é de $qtd pizza meio a meio nos sabores de $sabor e $sabor2\n$tipo_de_massa\nRecheio na borda: $borda\n$acompanhamento\nA entrega para o CEP: $cep.\nTel/Cel: $tel.\nSeu pedido será entregue o mais rápido possível!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00 você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "metadata": {},
+      "conditions": "$qtd:uma && $meio_a_meio:(meio a meio)",
+      "dialog_node": "node_67_1549633367149",
+      "previous_sibling": "node_66_1549633011690"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok! Levarei troco para $troco. Muito Obrigado. 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "context": {
+        "troco": "@sys-number"
+      },
+      "metadata": {},
+      "conditions": "@sys-number",
+      "dialog_node": "node_29_1549596306192",
+      "previous_sibling": "slot_5_1549599411059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza meio a meio nos sabores de $sabor e $sabor_2 e $sabor_3 e $sabor_4\n$tipo_de_massa na 1ª pizza - recheio na borda $borda\n$tipo_de_massa_2 na 2ª pizza - recheio na borda $borda_2\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00 você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "metadata": {},
+      "conditions": "$qtd:duas && $meio_a_meio:(meio a meio)",
+      "dialog_node": "node_214_1549666082678",
+      "previous_sibling": "node_83_1549641135569"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok $nome! Seu pedido é de $qtd pizza no sabor de $sabor\nMassa $tipo_de_massa\nRecheio na borda: $borda\n$acompanhamento\nEntregue no $cep\nTel/Cel: $tel\nSua pedido será entregue o mais rápido possivel!\nDeu R$ <?(new Random().nextInt(5)*10+5)?>,00 você precisa de troco para quanto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_20_1549588544619",
+      "metadata": {},
+      "conditions": "$qtd:uma && $inteira:inteira",
+      "dialog_node": "node_66_1549633011690",
+      "previous_sibling": "node_29_1549596306192"
+    },
+    {
+      "type": "slot",
+      "parent": "node_20_1549588544619",
+      "variable": "$dinheiro",
+      "dialog_node": "slot_5_1549599411059"
+    },
+    {
+      "type": "frame",
+      "title": "Sabor das Duas Inteiras",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Borda recheada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549509627790",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#pizza_inteira",
+      "dialog_node": "node_6_1549539706478",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1549498015274",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Sabor Uma Inteira e a Outra meio a meio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Borda recheada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549509627790",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#int_meio_a_meio",
+      "dialog_node": "node_217_1549672075001",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_164_1549663872658",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Sabor das Duas Meio a Meio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Borda recheada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549509627790",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#meio_a_meio",
+      "dialog_node": "node_164_1549663872658",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_6_1549539706478",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "2 Inteiras ou meio a meio ou 1 Inteira e outra meio a meio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja as 2 pizzas inteiras ou 2 meio a meio ou 1 inteira e outra meio a meio?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1549509627790",
+      "metadata": {},
+      "conditions": "#pizza_inteira || #meio_a_meio",
+      "dialog_node": "node_1_1549498015274"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual tipo de massa da 2ª pizza?"
+      },
+      "parent": "slot_207_1549664162626",
+      "event_name": "focus",
+      "dialog_node": "handler_209_1549664162626",
+      "previous_sibling": "handler_208_1549664162626"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_207_1549664162626",
+      "context": {
+        "tipo_de_massa_2": "@tipo_de_massa"
+      },
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_208_1549664162626"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "E dessa pizza, que tipo de massa? Grossa, Média ou Fina?"
+      },
+      "parent": "slot_16_1549540038839",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_18_1549540038839",
+      "previous_sibling": "handler_17_1549540038839"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_16_1549540038839",
+      "context": {
+        "tipo_de_massa_2": "@tipo_de_massa"
+      },
+      "metadata": {},
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_17_1549540038839"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_172_1549663872659",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_176_1549663872659",
+      "previous_sibling": "handler_175_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_172_1549663872659",
+      "context": {
+        "borda_2": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_174_1549663872659",
+      "previous_sibling": "handler_173_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_172_1549663872659",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_175_1549663872659",
+      "previous_sibling": "handler_174_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 2ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_172_1549663872659",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_173_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1549586161619",
+      "context": {
+        "tel": "@tel.literal"
+      },
+      "metadata": {},
+      "conditions": "@tel",
+      "event_name": "input",
+      "dialog_node": "handler_6_1549586161619",
+      "previous_sibling": "handler_7_1549586161619"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "O digite o nº do seu tel/cel nesse formato de exemplo: 11 99999-9999"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1549586161619",
+      "event_name": "nomatch",
+      "dialog_node": "handler_11_1549586295297",
+      "previous_sibling": "handler_6_1549586161619"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Confirme o nº do seu telefone por favor. xx xxxxx-xxxx"
+      },
+      "parent": "slot_5_1549586161619",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_7_1549586161619"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1549545892562",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_32_1549601594465",
+      "previous_sibling": "node_31_1549601453773"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_26_1549545892562",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_31_1549601453773"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1549193353191",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1549498015274"
+      },
+      "conditions": "input.txt=='2' || #qtd_2",
+      "dialog_node": "node_14_1549496719974",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_8_1549211230052",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1549193353191",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1549214327116"
+      },
+      "conditions": "#qtd_1",
+      "dialog_node": "node_8_1549211230052",
+      "digress_out": "allow_all",
+      "previous_sibling": "slot_1_1549217461000",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Este demo está configurado para atender no máximo 2 pedidos de pizza. 😞"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Escolha entre 1 ou 2 pizzas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1549193353191",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1549193353191"
+      },
+      "conditions": "input.txt<='3'",
+      "dialog_node": "node_4_1549217654247",
+      "previous_sibling": "node_14_1549496719974"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1549193353191",
+      "dialog_node": "slot_1_1549217461000"
+    },
+    {
+      "type": "standard",
+      "title": "Nome do Cliente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá $nome, você já conhece nosso cardápio? 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Bem-vindo",
+      "context": {
+        "nome": "<? input.text ?>"
+      },
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1549190344336",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Escolha entre massa fina, média ou grossa"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_248_1549672075040",
+      "event_name": "nomatch",
+      "dialog_node": "handler_263_1549672798099",
+      "previous_sibling": "handler_249_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_248_1549672075040",
+      "context": {
+        "tipo_de_massa_2": "@tipo_de_massa"
+      },
+      "metadata": {},
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_249_1549672075040",
+      "previous_sibling": "handler_250_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual tipo de massa da 2ª pizza?"
+      },
+      "parent": "slot_248_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_250_1549672075040"
+    },
+    {
+      "type": "standard",
+      "title": "Pedido de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Temos somente Coca-Cola 2l, Guaraná Antártica 2l e Fanta laranja 2l"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Qual refrigerante você deseja?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1549546058994",
+      "metadata": {},
+      "conditions": "#bebidas_pergunta || #bebidas",
+      "dialog_node": "node_29_1549546075410"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1549486750815",
+      "metadata": {},
+      "variable": "$sabor",
+      "dialog_node": "slot_8_1549486797007",
+      "previous_sibling": "node_26_1549545892562"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1549486750815",
+      "metadata": {},
+      "variable": "$sabor2",
+      "dialog_node": "slot_11_1549486896495",
+      "previous_sibling": "slot_8_1549486797007"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1549486750815",
+      "variable": "$meio_a_meio",
+      "dialog_node": "slot_24_1549594842349",
+      "previous_sibling": "slot_19_1549545108471"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1549486750815",
+      "variable": "$tipo_de_massa",
+      "dialog_node": "slot_19_1549545108471",
+      "previous_sibling": "slot_11_1549486896495"
+    },
+    {
+      "type": "standard",
+      "title": "Negação para borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quer refrigerante? 😉"
+              },
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_7_1549486750815",
+      "metadata": {},
+      "conditions": "#negacao",
+      "dialog_node": "node_26_1549545892562",
+      "previous_sibling": "node_22_1549545465969"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmação Borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              },
+              {
+                "text": "Quer refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1549486750815",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_22_1549545465969",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Que tipo de massa? Grossa, Média ou Fina?"
+      },
+      "parent": "slot_35_1549548153333",
+      "event_name": "focus",
+      "dialog_node": "handler_37_1549548153333",
+      "previous_sibling": "handler_36_1549548153333"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_35_1549548153333",
+      "context": {
+        "tipo_de_massa": "@tipo_de_massa"
+      },
+      "metadata": {},
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_36_1549548153333"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o sabor da 2ª pizza?"
+      },
+      "parent": "slot_13_1549539995454",
+      "event_name": "focus",
+      "dialog_node": "handler_15_1549539995454",
+      "previous_sibling": "handler_14_1549539995454"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_13_1549539995454",
+      "context": {
+        "sabor_2": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_14_1549539995454"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549486531111",
+      "metadata": {},
+      "conditions": "#negacao",
+      "dialog_node": "node_42_1549548386110",
+      "previous_sibling": "node_38_1549548231925"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1549486531111",
+      "variable": "$inteira",
+      "dialog_node": "slot_21_1549594812821",
+      "previous_sibling": "slot_35_1549548153333"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1549486531111",
+      "metadata": {},
+      "variable": "$tipo_de_massa",
+      "dialog_node": "slot_35_1549548153333",
+      "previous_sibling": "slot_4_1549486568325"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1549486531111",
+      "metadata": {},
+      "variable": "$sabor",
+      "dialog_node": "slot_4_1549486568325",
+      "previous_sibling": "node_42_1549548386110"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmação Borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549486531111",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_38_1549548231925",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_21_1549594812821",
+      "event_name": "focus",
+      "dialog_node": "handler_23_1549594812821",
+      "previous_sibling": "handler_22_1549594812821"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_21_1549594812821",
+      "context": {
+        "inteira": "@inteira"
+      },
+      "conditions": "@inteira",
+      "event_name": "input",
+      "dialog_node": "handler_22_1549594812821"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_43_1549549434166",
+      "metadata": {},
+      "variable": "$tel",
+      "dialog_node": "slot_5_1549586161619",
+      "previous_sibling": "slot_60_1549563853848"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_43_1549549434166",
+      "metadata": {},
+      "variable": "$cep",
+      "dialog_node": "slot_60_1549563853848"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual tipo de massa da 1ª pizza?"
+      },
+      "parent": "slot_198_1549664039683",
+      "event_name": "focus",
+      "dialog_node": "handler_200_1549664039683",
+      "previous_sibling": "handler_199_1549664039683"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_198_1549664039683",
+      "context": {
+        "tipo_de_massa": "@tipo_de_massa"
+      },
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_199_1549664039683"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_221_1549672075040",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_224_1549672075040",
+      "previous_sibling": "handler_223_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_221_1549672075040",
+      "context": {
+        "borda": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_223_1549672075040",
+      "previous_sibling": "handler_222_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 1ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_221_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_222_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Você precisa escolher entre massa fina, média ou grossa."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_239_1549672075040",
+      "event_name": "nomatch",
+      "dialog_node": "handler_257_1549672628291",
+      "previous_sibling": "handler_240_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_239_1549672075040",
+      "context": {
+        "tipo_de_massa": "@tipo_de_massa"
+      },
+      "metadata": {},
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_240_1549672075040",
+      "previous_sibling": "handler_241_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual tipo de massa da pizza inteira?"
+      },
+      "parent": "slot_239_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_241_1549672075040"
+    },
+    {
+      "type": "slot",
+      "parent": "node_13_1549214327116",
+      "variable": "$sabor",
+      "dialog_node": "slot_1_1549214650464",
+      "previous_sibling": "node_2_1549486499622"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1549214327116",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1549486750815"
+      },
+      "conditions": "#meio_a_meio",
+      "dialog_node": "node_2_1549486499622",
+      "previous_sibling": "node_1_1549486419392"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_13_1549214327116",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1549486531111"
+      },
+      "conditions": "#pizza_inteira",
+      "dialog_node": "node_1_1549486419392"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_265_1549673508731",
+      "event_name": "focus",
+      "dialog_node": "handler_267_1549673508731",
+      "previous_sibling": "handler_266_1549673508731"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_265_1549673508731",
+      "context": {
+        "int_meio_a_meio": "@int_meio_a_meio"
+      },
+      "conditions": "@int_meio_a_meio",
+      "event_name": "input",
+      "dialog_node": "handler_266_1549673508731"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_230_1549672075040",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_232_1549672075040",
+      "previous_sibling": "node_231_1549672075040"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_230_1549672075040",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_231_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "E agora o sabor da outra metade da 2° pizza por favor?"
+      },
+      "parent": "slot_204_1549664136995",
+      "event_name": "focus",
+      "dialog_node": "handler_206_1549664136995",
+      "previous_sibling": "handler_205_1549664136995"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_204_1549664136995",
+      "context": {
+        "sabor_4": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_205_1549664136995"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual sabor da 1ª metade?"
+      },
+      "parent": "slot_8_1549486797007",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1549486797007",
+      "previous_sibling": "handler_9_1549486797007"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1549486797007",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_9_1549486797007"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_210_1549664180747",
+      "event_name": "focus",
+      "dialog_node": "handler_212_1549664180747",
+      "previous_sibling": "handler_211_1549664180747"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_210_1549664180747",
+      "context": {
+        "meio_a_meio": "@meio_a_meio"
+      },
+      "conditions": "@meio_a_meio",
+      "event_name": "input",
+      "dialog_node": "handler_211_1549664180747"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1549190449753",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1549190449753",
+      "previous_sibling": "handler_5_1549190449753"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_4_1549190449753",
+      "event_name": "input",
+      "dialog_node": "handler_5_1549190449753"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_225_1549672075040",
+      "context": {
+        "borda_2": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_227_1549672075040",
+      "previous_sibling": "handler_226_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_225_1549672075040",
+      "metadata": {},
+      "event_name": "nomatch",
+      "dialog_node": "handler_228_1549672075040",
+      "previous_sibling": "handler_227_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_225_1549672075040",
+      "metadata": {},
+      "event_name": "filled",
+      "dialog_node": "handler_229_1549672075040",
+      "previous_sibling": "handler_228_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 2ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_225_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_226_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1549587408556",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1549587408556",
+      "previous_sibling": "handler_15_1549587408556"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_14_1549587408556",
+      "context": {
+        "qtd": "@qtd"
+      },
+      "conditions": "@qtd",
+      "event_name": "input",
+      "dialog_node": "handler_15_1549587408556"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Que tipo de massa? Grossa, Média ou Fina?"
+      },
+      "parent": "slot_19_1549545108471",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_21_1549545108471",
+      "previous_sibling": "handler_20_1549545108471"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_19_1549545108471",
+      "context": {
+        "tipo_de_massa": "@tipo_de_massa"
+      },
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_20_1549545108471"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_84_1549641288609",
+      "event_name": "focus",
+      "dialog_node": "handler_86_1549641288609",
+      "previous_sibling": "handler_85_1549641288609"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_84_1549641288609",
+      "context": {
+        "inteira": "@inteira"
+      },
+      "conditions": "@inteira",
+      "event_name": "input",
+      "dialog_node": "handler_85_1549641288609"
+    },
+    {
+      "type": "frame",
+      "title": "Escolha do Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_29_1549546075410",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#bebidas",
+      "dialog_node": "node_30_1549546218970",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_30_1549546218970",
+      "metadata": {},
+      "variable": "$acompanhamento",
+      "dialog_node": "slot_31_1549546335482"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Segue nosso cardápio para escolha: 🍕"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Cardápio",
+            "source": "http://demo.portaldosite.com.br/images/chatbot/menu-pizza-demo1.jpg",
+            "response_type": "image"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "title": "Cardápio (verso)",
+            "source": "http://demo.portaldosite.com.br/images/chatbot/menu-pizza-demo2.jpg",
+            "response_type": "image"
+          },
+          {
+            "values": [
+              {
+                "text": "Deseja fazer seu pedido agora? 🍕"
+              },
+              {
+                "text": "Podemos anotar o seu pedido?  😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549209247276",
+      "metadata": {},
+      "conditions": "#cardapio",
+      "dialog_node": "node_4_1549209729945"
+    },
+    {
+      "type": "folder",
+      "title": "Sabor de 2 Pizzas",
+      "parent": "node_4_1549193235406",
+      "metadata": {},
+      "dialog_node": "node_5_1549509627790",
+      "previous_sibling": "node_3_1549509313276"
+    },
+    {
+      "type": "folder",
+      "title": "Sabor de 1 Pizza",
+      "parent": "node_4_1549193235406",
+      "metadata": {},
+      "dialog_node": "node_3_1549509313276",
+      "previous_sibling": "node_2_1549498373561"
+    },
+    {
+      "type": "folder",
+      "title": "Definindo quantidade",
+      "parent": "node_4_1549193235406",
+      "metadata": {},
+      "dialog_node": "node_2_1549498373561"
+    },
+    {
+      "type": "frame",
+      "title": "Sabor Pizza Meio a Meio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Borda recheada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549509313276",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@sabor",
+      "dialog_node": "node_7_1549486750815",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_3_1549486531111",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "frame",
+      "title": "Sabor Pizza Inteira",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Borda recheada?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549509313276",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "@sabor",
+      "dialog_node": "node_3_1549486531111",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_13_1549214327116",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Inteira ou meio a meio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você deseja pizza inteira ou meio a meio?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549509313276",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#pizza_inteira || #meio_a_meio",
+      "dialog_node": "node_13_1549214327116",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "1 Inteira e a Outra meio a meio",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549498015274",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_217_1549672075001"
+      },
+      "conditions": "#int_meio_a_meio",
+      "dialog_node": "node_5_1549539405662",
+      "previous_sibling": "node_4_1549539364855"
+    },
+    {
+      "type": "standard",
+      "title": "2 Meio a Meio",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549498015274",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_164_1549663872658"
+      },
+      "conditions": "#meio_a_meio",
+      "dialog_node": "node_4_1549539364855",
+      "previous_sibling": "node_3_1549539320566"
+    },
+    {
+      "type": "standard",
+      "title": "2 Pizzas Inteiras",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1549498015274",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1549539706478"
+      },
+      "conditions": "#duas_inteiras",
+      "dialog_node": "node_3_1549539320566"
+    },
+    {
+      "type": "standard",
+      "title": "Pedir Pizza",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Quantas pizzas você deseja pedir? ( máx. 2 pizzas por pedido na forma demo)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1549498373561",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#pedir_pizza",
+      "dialog_node": "node_7_1549193353191",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_218_1549672075040",
+      "metadata": {},
+      "variable": "$borda_2",
+      "dialog_node": "slot_225_1549672075040",
+      "previous_sibling": "slot_221_1549672075040"
+    },
+    {
+      "type": "standard",
+      "title": "Negação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_218_1549672075040",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_220_1549672075040",
+      "previous_sibling": "node_219_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_218_1549672075040",
+      "metadata": {},
+      "variable": "$borda",
+      "dialog_node": "slot_221_1549672075040",
+      "previous_sibling": "node_220_1549672075040"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_218_1549672075040",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_219_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1549599449749",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1549599449749",
+      "previous_sibling": "handler_9_1549599449749"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_8_1549599449749",
+      "context": {
+        "credito": "@credito"
+      },
+      "conditions": "@credito",
+      "event_name": "input",
+      "dialog_node": "handler_9_1549599449749"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$sabor_2",
+      "dialog_node": "slot_195_1549664011430",
+      "previous_sibling": "slot_180_1549663872659"
+    },
+    {
+      "type": "standard",
+      "title": "Negação para borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_164_1549663872658",
+      "metadata": {},
+      "conditions": "#negacao",
+      "dialog_node": "node_177_1549663872659",
+      "previous_sibling": "node_165_1549663872659"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$meio_a_meio",
+      "dialog_node": "slot_210_1549664180747",
+      "previous_sibling": "slot_207_1549664162626"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$sabor_3",
+      "dialog_node": "slot_201_1549664090491",
+      "previous_sibling": "slot_198_1549664039683"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$tipo_de_massa_2",
+      "dialog_node": "slot_207_1549664162626",
+      "previous_sibling": "slot_204_1549664136995"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_164_1549663872658",
+      "metadata": {},
+      "variable": "$sabor",
+      "dialog_node": "slot_180_1549663872659",
+      "previous_sibling": "node_177_1549663872659"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$tipo_de_massa",
+      "dialog_node": "slot_198_1549664039683",
+      "previous_sibling": "slot_195_1549664011430"
+    },
+    {
+      "type": "slot",
+      "parent": "node_164_1549663872658",
+      "variable": "$sabor_4",
+      "dialog_node": "slot_204_1549664136995",
+      "previous_sibling": "slot_201_1549664090491"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmação da Borda Recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_164_1549663872658",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_165_1549663872659"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$tipo_de_massa_2",
+      "dialog_node": "slot_248_1549672075040",
+      "previous_sibling": "slot_245_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$tipo_de_massa",
+      "dialog_node": "slot_239_1549672075040",
+      "previous_sibling": "slot_233_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$int_meio_a_meio",
+      "dialog_node": "slot_265_1549673508731",
+      "previous_sibling": "slot_248_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$sabor_2",
+      "dialog_node": "slot_242_1549672075040",
+      "previous_sibling": "slot_239_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$sabor",
+      "dialog_node": "slot_233_1549672075040",
+      "previous_sibling": "node_230_1549672075040"
+    },
+    {
+      "type": "standard",
+      "title": "Negação para borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "conditions": "#negacao",
+      "dialog_node": "node_230_1549672075040",
+      "previous_sibling": "node_218_1549672075040"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_217_1549672075001",
+      "metadata": {},
+      "variable": "$sabor_3",
+      "dialog_node": "slot_245_1549672075040",
+      "previous_sibling": "slot_242_1549672075040"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmação da Borda Recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_217_1549672075001",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_218_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1549599468749",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1549599468749",
+      "previous_sibling": "handler_12_1549599468749"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1549599468749",
+      "context": {
+        "debito": "@debito"
+      },
+      "conditions": "@debito",
+      "event_name": "input",
+      "dialog_node": "handler_12_1549599468749"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual sabor da pizza?"
+      },
+      "parent": "slot_4_1549486568325",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1549486568325",
+      "previous_sibling": "handler_5_1549486568325"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1549486568325",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_5_1549486568325"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1549209729945",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1549193168510"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_12_1549211849278",
+      "previous_sibling": "node_11_1549211802333"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1549209729945",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1549193353191"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_11_1549211802333"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1549598776005",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1549598776005",
+      "previous_sibling": "handler_2_1549598776005"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1549598776005",
+      "event_name": "input",
+      "dialog_node": "handler_2_1549598776005"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_90_1549642187931",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_92_1549642312755",
+      "previous_sibling": "node_91_1549642281497"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_90_1549642187931",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_91_1549642281497"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_177_1549663872659",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_179_1549663872659",
+      "previous_sibling": "node_178_1549663872659"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_177_1549663872659",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_178_1549663872659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o sabor que deseja?"
+      },
+      "parent": "slot_1_1549214650464",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1549214650464",
+      "previous_sibling": "handler_2_1549214650464"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_1_1549214650464",
+      "context": {
+        "sabor": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_2_1549214650464"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1549190344336",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1549209729945"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_6_1549210177946",
+      "previous_sibling": "node_5_1549210130610"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1549190344336",
+      "dialog_node": "slot_4_1549190449753",
+      "previous_sibling": "node_6_1549210177946"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos fazer o seu pedido agora? "
+              },
+              {
+                "text": "$nome, deseja pedir agora? "
+              },
+              {
+                "text": "Posso anotar o seu pedido agora? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_3_1549190344336",
+      "metadata": {},
+      "conditions": "#afirmacao",
+      "dialog_node": "node_5_1549210130610"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Que tipo de massa dessa pizza? Grossa, Média ou Fina?"
+      },
+      "parent": "slot_10_1549539902792",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_12_1549539902792",
+      "previous_sibling": "handler_11_1549539902792"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1549539902792",
+      "context": {
+        "tipo_de_massa2": "@tipo_de_massa"
+      },
+      "metadata": {},
+      "conditions": "@tipo_de_massa",
+      "event_name": "input",
+      "dialog_node": "handler_11_1549539902792"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_60_1549563853848",
+      "event_name": "filled",
+      "dialog_node": "handler_3_1549585890255",
+      "previous_sibling": "handler_13_1549586438687"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_60_1549563853848",
+      "context": {
+        "cep": "@cep.literal"
+      },
+      "metadata": {},
+      "conditions": "@cep",
+      "event_name": "input",
+      "dialog_node": "handler_61_1549563853848",
+      "previous_sibling": "handler_62_1549563853848"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Por favor informe um CEP válido no exemplo: 02512-001"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_60_1549563853848",
+      "event_name": "nomatch",
+      "dialog_node": "handler_13_1549586438687",
+      "previous_sibling": "handler_61_1549563853848"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual é o seu CEP para eu entregar a pizza? Formato: xxxxx-xxx"
+      },
+      "parent": "slot_60_1549563853848",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_62_1549563853848"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1549599411059",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1549599411059",
+      "previous_sibling": "handler_6_1549599411059"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_5_1549599411059",
+      "context": {
+        "dinheiro": "@dinheiro"
+      },
+      "conditions": "@dinheiro",
+      "event_name": "input",
+      "dialog_node": "handler_6_1549599411059"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Você precisa escolher os sabores que estão no cardápio. Ex: frango."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_242_1549672075040",
+      "event_name": "nomatch",
+      "dialog_node": "handler_259_1549672710178",
+      "previous_sibling": "handler_243_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_242_1549672075040",
+      "context": {
+        "sabor_2": "@sabor"
+      },
+      "metadata": {},
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_243_1549672075040",
+      "previous_sibling": "handler_244_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o sabor da 1ª metade da segunda pizza?"
+      },
+      "parent": "slot_242_1549672075040",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_244_1549672075040"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda deseja? Catupiry ou Cheddar"
+      },
+      "parent": "slot_23_1549545498496",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_25_1549545498496",
+      "previous_sibling": "handler_24_1549545498496"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_23_1549545498496",
+      "context": {
+        "borda": "@borda"
+      },
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_24_1549545498496"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Sabor da 2ª metade?"
+      },
+      "parent": "slot_195_1549664011430",
+      "event_name": "focus",
+      "dialog_node": "handler_197_1549664011430",
+      "previous_sibling": "handler_196_1549664011430"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_195_1549664011430",
+      "context": {
+        "sabor_2": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_196_1549664011430"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_71_1549638569129",
+      "event_name": "nomatch",
+      "dialog_node": "handler_78_1549638981595",
+      "previous_sibling": "handler_72_1549638569129"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_71_1549638569129",
+      "context": {
+        "borda": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_72_1549638569129",
+      "previous_sibling": "handler_73_1549638569129"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 1ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_71_1549638569129",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_73_1549638569129"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1549548386110",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_2_1549571010413",
+      "previous_sibling": "node_1_1549568288689"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1549548386110",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_1_1549568288689"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual sabor da 2ª metade?"
+      },
+      "parent": "slot_11_1549486896495",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1549486896495",
+      "previous_sibling": "handler_12_1549486896495"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_11_1549486896495",
+      "context": {
+        "sabor2": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_12_1549486896495"
+    },
+    {
+      "type": "standard",
+      "title": "Negação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1549545465969",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_43_1549549434166"
+      },
+      "conditions": "#negacao",
+      "dialog_node": "node_89_1549641998970",
+      "previous_sibling": "node_30_1549601024185"
+    },
+    {
+      "type": "slot",
+      "parent": "node_22_1549545465969",
+      "variable": "$borda",
+      "dialog_node": "slot_23_1549545498496",
+      "previous_sibling": "node_89_1549641998970"
+    },
+    {
+      "type": "standard",
+      "title": "Confirmação de Refrigerante",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_22_1549545465969",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_29_1549546075410"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_30_1549601024185"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda deseja? Catupiry ou Cheddar"
+      },
+      "parent": "slot_39_1549548312449",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_41_1549548312449",
+      "previous_sibling": "handler_40_1549548312449"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_39_1549548312449",
+      "context": {
+        "borda": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_40_1549548312449"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_74_1549638604604",
+      "event_name": "filled",
+      "dialog_node": "handler_80_1549639106287",
+      "previous_sibling": "handler_81_1549639106287"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Diga apenas catupiry, cheddar ou sem recheio (*caso não queria recheio)."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_74_1549638604604",
+      "event_name": "nomatch",
+      "dialog_node": "handler_81_1549639106287",
+      "previous_sibling": "handler_75_1549638604604"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_74_1549638604604",
+      "context": {
+        "borda_2": "@borda"
+      },
+      "metadata": {},
+      "conditions": "@borda",
+      "event_name": "input",
+      "dialog_node": "handler_75_1549638604604",
+      "previous_sibling": "handler_76_1549638604604"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual recheio da borda da 2ª pizza? Catupiry ou Cheddar?"
+      },
+      "parent": "slot_74_1549638604604",
+      "metadata": {},
+      "event_name": "focus",
+      "dialog_node": "handler_76_1549638604604"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": "Qual o sabor da 1ª metade da segunda pizza?"
+      },
+      "parent": "slot_201_1549664090491",
+      "event_name": "focus",
+      "dialog_node": "handler_203_1549664090491",
+      "previous_sibling": "handler_202_1549664090491"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_201_1549664090491",
+      "context": {
+        "sabor_3": "@sabor"
+      },
+      "conditions": "@sabor",
+      "event_name": "input",
+      "dialog_node": "handler_202_1549664090491"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1549587514931",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1549587514931",
+      "previous_sibling": "handler_18_1549587514931"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_17_1549587514931",
+      "context": {
+        "qtd": "@qtd"
+      },
+      "conditions": "@qtd",
+      "event_name": "input",
+      "dialog_node": "handler_18_1549587514931"
+    },
+    {
+      "type": "slot",
+      "parent": "node_14_1549496719974",
+      "variable": "$qtd",
+      "dialog_node": "slot_17_1549587514931"
+    },
+    {
+      "type": "frame",
+      "title": "Endereço de Entrega",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_34_1549546816107",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1549572051134"
+      },
+      "conditions": "#endereco",
+      "dialog_node": "node_43_1549549434166",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Negação para borda recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1549539706478",
+      "metadata": {},
+      "conditions": "#negacao",
+      "dialog_node": "node_90_1549642187931",
+      "previous_sibling": "node_70_1549638536853"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1549539706478",
+      "metadata": {},
+      "variable": "$tipo_de_massa2",
+      "dialog_node": "slot_10_1549539902792",
+      "previous_sibling": "slot_7_1549539865124"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1549539706478",
+      "variable": "$inteira",
+      "dialog_node": "slot_84_1549641288609",
+      "previous_sibling": "slot_16_1549540038839"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1549539706478",
+      "metadata": {},
+      "variable": "$tipo_de_massa_2",
+      "dialog_node": "slot_16_1549540038839",
+      "previous_sibling": "slot_13_1549539995454"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_6_1549539706478",
+      "metadata": {},
+      "variable": "$sabor",
+      "dialog_node": "slot_7_1549539865124",
+      "previous_sibling": "node_90_1549642187931"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1549539706478",
+      "variable": "$sabor_2",
+      "dialog_node": "slot_13_1549539995454",
+      "previous_sibling": "slot_10_1549539902792"
+    },
+    {
+      "type": "frame",
+      "title": "Confirmação da Borda Recheada",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Acompanha refrigerante? 😉"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1549539706478",
+      "metadata": {
+        "fallback": "leave"
+      },
+      "conditions": "#afirmacao",
+      "dialog_node": "node_70_1549638536853",
+      "digress_out": "allow_all",
+      "digress_out_slots": "not_allowed"
+    },
+    {
+      "type": "standard",
+      "title": "Despedida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado $nome. Volte sempre.  😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#despedida",
+      "dialog_node": "node_3_1549193168510",
+      "previous_sibling": "node_3_1549572038118"
+    },
+    {
+      "type": "folder",
+      "title": "Cardápio",
+      "metadata": {},
+      "dialog_node": "node_1_1549209247276",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "folder",
+      "title": "Endereço de Entrega",
+      "metadata": {},
+      "dialog_node": "node_34_1549546816107",
+      "previous_sibling": "node_28_1549546058994"
+    },
+    {
+      "type": "folder",
+      "title": "Pedido da Pizza",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1549193235406",
+      "previous_sibling": "node_1_1549209247276"
+    },
+    {
+      "type": "folder",
+      "title": "Pedido de Refrigerante",
+      "metadata": {},
+      "dialog_node": "node_28_1549546058994",
+      "previous_sibling": "node_4_1549193235406"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_3_1549193168510"
+    },
+    {
+      "type": "folder",
+      "title": "Pagamento",
+      "metadata": {},
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1549572038118",
+      "previous_sibling": "node_34_1549546816107"
+    },
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Seja bem vindo a pizzaria Demo. 🍕🙂 Qual seu nome por favor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    }
+  ],
+  "workspace_id": "101f3589-64cb-425e-8ff3-206409d70bea",
+  "counterexamples": [],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    }
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
